@@ -33,7 +33,9 @@
     font-weight: bold;
     color: aliceblue;
 }
-
+.menu li a:hover {
+    color: rgb(0, 0, 0) !important;
+}
 .About-con {
     display: flex;
     justify-content: space-between;
@@ -132,11 +134,12 @@
     max-width: 100%;
 }
 
-.EX1-info h4{
+.EX1-info h3{
     background-color: rgb(158, 28, 8);
     color: aliceblue;
+   
 }
-.EX2-info h4 {
+.EX2-info h3{
     background-color: rgb(158, 28, 8);
     color: aliceblue;
 }
@@ -147,8 +150,8 @@
 }
 
 .Link-card {
-    width: 250px;
     padding: 20px;
+    padding-left: 0px;
     border-radius: 15px;
     text-align: center;
 }
