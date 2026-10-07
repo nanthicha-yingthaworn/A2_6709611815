@@ -42,13 +42,15 @@
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 }
 
-.About img {
+.About-img {
     width: 50%;
 }
 
-.About-info {
-    background-color: aquamarine;
-    justify-items: center;
+.About-img img {
+    width: 100%;
+}
+.About-info h3{
+    text-align: center;
 }
 
 .About-name h3 {
@@ -160,6 +162,7 @@
     padding-left: 0px;
     border-radius: 15px;
     text-align: center;
+    margin-bottom: 5rem;
 }
 
 .URL a {
