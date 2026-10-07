@@ -103,7 +103,9 @@
 .Portfolio-info h4 {
     text-align: center;
 }
-
+.Portfolio-info h4 a:hover{
+    color: dimgrey;
+}
 .Portfolio-img img {
     width: 100%;
 }
@@ -137,11 +139,15 @@
 .EX1-info h3{
     background-color: rgb(158, 28, 8);
     color: aliceblue;
+    text-align: left;
+    padding-left: 1rem;
    
 }
 .EX2-info h3{
     background-color: rgb(158, 28, 8);
     color: aliceblue;
+    text-align: left;
+    padding-left: 1rem;
 }
 
 .Link-box {
