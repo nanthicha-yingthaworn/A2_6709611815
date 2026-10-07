@@ -42,6 +42,7 @@
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 }
 
+
 .About-img {
     width: 50%;
 }
@@ -49,13 +50,28 @@
 .About-img img {
     width: 100%;
 }
-.About-info h3{
-    text-align: center;
-}
 
 .About-name h3 {
-    margin: 2rem;
-    font-size: 30px;
+    margin-top: 4rem;
+    margin-right: 4rem;
+    font-size: 40px;
+    text-align: center;
+}
+.About-major {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.left,
+.right {
+    width: 50%;
+
+}
+.left,
+.right p{
+    font-size: 20px;
+    
 }
 
 .Portfolio-con {
