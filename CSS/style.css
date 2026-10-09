@@ -48,7 +48,7 @@
 }
 
 .About-img img {
-    width: 100%;
+    width: 800px
 }
 
 .About-name h3 {
@@ -58,20 +58,7 @@
     text-align: center;
 }
 .About-major {
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
-}
-
-.left,
-.right {
-    width: 50%;
-
-}
-.left,
-.right p{
-    font-size: 20px;
-    
+    font-size: 18px;
 }
 
 .Portfolio-con {
@@ -194,4 +181,173 @@
 .URL a:hover {
     background-color: rgb(93, 88, 88);
     box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+/* สำหรับโทรศัพท์ หน้าจอไม่เกิน 768px */
+
+@media screen and (max-width: 768px) {
+
+    
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .LOGO {
+        margin: 1rem 0 0;
+    }
+
+    .menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+        margin: 1rem 0;
+        gap: 12px;
+    }
+
+    .menu li {
+        margin: 0;
+    }
+
+    
+    .About-con {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .About-img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .About-img img {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+    }
+
+    .About-name h3 {
+        margin: 1rem 0;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .About-major {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    
+    .Portfolio-con {
+        margin-top: 2rem;
+        padding: 1rem;
+    }
+
+    .Portfolio-item {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        gap: 1.5rem;
+        margin: 1rem 0;
+        justify-items: center;
+    }
+
+    .Portfolio-work {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .Portfolio-Ex1{
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        min-height: 180px;
+    }
+    .Portfolio-Ex2 {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        min-height: 180px;
+    }
+
+    .Portfolio-img img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .Portfolio-EX1-2 {
+        margin: 1rem;
+    }
+
+    .pic {
+        width: 100%;
+    }
+
+    .EX1-img {
+        margin: 1.5rem auto;
+        padding: 0 1rem;
+        width: 100%;
+    }
+
+    .EX1-img img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .EX1-info h3{
+        padding: 0.75rem;
+        font-size: 18px;
+    }
+    .EX2-info h3 {
+        padding: 0.75rem;
+        font-size: 18px;
+    }
+
+    
+    .Link-box {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .Link-card {
+        padding: 10px 0;
+        margin-bottom: 2rem;
+    }
+
+    .URL a {
+        padding: 10px 16px;
+        overflow-wrap: anywhere;
+    }
+
+    
+    .end {
+        text-align: center;
+        margin: 2rem 1rem;
+    }
 }
